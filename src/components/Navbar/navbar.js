@@ -93,6 +93,7 @@ const Navbar = () => {
             CERTIFICATE{" "}
           </Link>
         )}
+
         {activeNav === "/Contact" ? (
           ""
         ) : (

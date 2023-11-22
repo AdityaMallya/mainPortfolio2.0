@@ -3,38 +3,42 @@ import "./skills.css";
 import WebDesign from "../../assets/website-design.png";
 import Cprogram from "../../assets/cprog.png";
 import Pyhi from "../../assets/py.png";
+import Card from "../Skillss/card";
 
 const Skills = () => {
+  const skills = [
+    {
+      id: 0,
+      h: "WEB DESIGN",
+      p: "html,css,js,react js,express js",
+      img: WebDesign,
+    },
+    {
+      id: 1,
+      h: "C PROGRAMING",
+      p: "basic c programing ",
+      img: Cprogram,
+    },
+    {
+      id: 2,
+      h: "PYTHON",
+      p: "basic python programing",
+      img: Pyhi,
+    },
+  ];
+
   return (
-    <section id="skills">
-      <span className="skillTitle">What I do</span>
-      <span className="skillDesc">
-        I am a not so skilled web designed with no experience in anything{" "}
-      </span>
-      <div className="skillBars">
-        <div className="skillBar">
-          <img src={WebDesign} alt="WebDesign" className="skillBarImg"></img>
-          <div className="skillBarText">
-            <h2>WEB DESIGN</h2>
-            <p>html,css,js,react js,express js</p>
-          </div>
-        </div>
-        <div className="skillBar">
-          <img src={Cprogram} alt="Cprograms" className="skillBarImg"></img>
-          <div className="skillBarText">
-            <h2>C PROGRAMING </h2>
-            <p>basic c programing</p>
-          </div>
-        </div>
-        <div className="skillBar">
-          <img src={Pyhi} alt="Pyhi" className="skillBarImg"></img>
-          <div className="skillBarText">
-            <h2>PYTHON</h2>
-            <p>basic python programing</p>
-          </div>
-        </div>
+    <div className="skills">
+      <div className="skillTitle">MY SKILLS</div>
+      <div className="skillDesc">
+        im not so good at anything but here are some of them
       </div>
-    </section>
+      <div>
+        {skills.map((item) => (
+          <Card skills={item} />
+        ))}
+      </div>
+    </div>
   );
 };
 
