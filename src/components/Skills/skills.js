@@ -3,7 +3,7 @@ import "./skills.css";
 import WebDesign from "../../assets/website-design.png";
 import Cprogram from "../../assets/cprog.png";
 import Pyhi from "../../assets/py.png";
-import Card from "../Skillss/card";
+import Card from "../Card/card";
 
 const Skills = () => {
   const skills = [
