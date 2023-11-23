@@ -70,8 +70,6 @@ const Contact = () => {
         <img src={Inst} alt="insta" className="link"></img>
         <img src={Twit} alt="twite" className="link"></img>
       </div>
-
-      <footer className="footer">Copyright &#169; 2023 Aditya Mallya</footer>
     </div>
   );
 };

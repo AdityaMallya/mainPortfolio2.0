@@ -6,6 +6,7 @@ import Contact from "./components/Contact/contact";
 import Cirt from "./components/Cirtificate/cirt";
 import Home from "./components/Home/home";
 import About from "./components/About/about";
+import Footer from "./components/Footer/footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
