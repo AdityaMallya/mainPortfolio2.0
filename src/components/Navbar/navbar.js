@@ -20,15 +20,7 @@ const Navbar = () => {
         {activeNav === "/" ? (
           ""
         ) : (
-          <Link
-            activeClass="active"
-            to={"/"}
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            className="desktopMenuListItem "
-          >
+          <Link activeClass="active" to={"/"} className="desktopMenuListItem ">
             HOME
           </Link>
         )}
@@ -39,10 +31,6 @@ const Navbar = () => {
           <Link
             activeClass="active"
             to={"/About"}
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
             className="desktopMenuListItem"
           >
             ABOUT
@@ -54,10 +42,6 @@ const Navbar = () => {
           <Link
             activeClass="active"
             to={"/Skills"}
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
             className="desktopMenuListItem"
           >
             SKILLS
@@ -69,10 +53,6 @@ const Navbar = () => {
           <Link
             activeClass="active"
             to={"/Education"}
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
             className="desktopMenuListItem"
           >
             EDUCATION{" "}
@@ -84,10 +64,6 @@ const Navbar = () => {
           <Link
             activeClass="active"
             to={"/Certificate"}
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
             className="desktopMenuListItem"
           >
             CERTIFICATE{" "}
@@ -100,10 +76,6 @@ const Navbar = () => {
           <Link
             activeClass="active"
             to={"/Contact"}
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
             className="desktopMenuListItem"
           >
             CONTACT{" "}
@@ -121,10 +93,6 @@ const Navbar = () => {
         <Link
           activeClass="active"
           to="/"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
           className={`ListItem ${activeNav === "/" ? "active" : ""}`}
           onClick={() => setShowMenu(false)}
         >
@@ -133,10 +101,6 @@ const Navbar = () => {
         <Link
           activeClass="active"
           to="/About"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
           className={`ListItem ${activeNav === "/About" ? "active" : ""}`}
           onClick={() => setShowMenu(false)}
         >
@@ -145,10 +109,6 @@ const Navbar = () => {
         <Link
           activeClass="active"
           to="/Skills"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
           className={`ListItem ${activeNav === "/Skills" ? "active" : ""}`}
           onClick={() => setShowMenu(false)}
         >
@@ -157,10 +117,6 @@ const Navbar = () => {
         <Link
           activeClass="active"
           to="/Education"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
           className={`ListItem ${activeNav === "/Education" ? "active" : ""}`}
           onClick={() => setShowMenu(false)}
         >
@@ -169,10 +125,6 @@ const Navbar = () => {
         <Link
           activeClass="active"
           to="/Certificate"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
           className={`ListItem ${activeNav === "/Certificate" ? "active" : ""}`}
           onClick={() => setShowMenu(false)}
         >
@@ -181,10 +133,6 @@ const Navbar = () => {
         <Link
           activeClass="active"
           to="/Contact"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
           className={`ListItem ${activeNav === "/Contact" ? "active" : ""}`}
           onClick={() => setShowMenu(false)}
         >

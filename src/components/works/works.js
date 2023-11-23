@@ -10,7 +10,7 @@ const Works = () => {
       <span className="workTitle">where did i study ?</span>
       <span className="workDesc">
         I studied in 3 different schools and colleges and am still undergoing my
-        BE education in Canara Engineering College
+        BE in CSE in Canara Engineering College
       </span>
       <div className="workBars">
         <div className="workBar">

@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import Fab from "../../assets/facebook-icon.png";
 import Inst from "../../assets/instagram.png";
 import Twit from "../../assets/twitter.png";
-import Load from "../../assets/loading.png";
+import Load from "../../assets/loading.gif";
 
 const Contact = () => {
   const form = useRef();
