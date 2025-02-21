@@ -5,6 +5,7 @@ import Works from "../works/works";
 import Cirt from "../Cirtificate/cirt";
 import Contact from "../Contact/contact";
 import About from "../About/about";
+import Proj from "../Proj/proj";
 const Home = () => {
   return (
     <div className="Home">
@@ -12,6 +13,7 @@ const Home = () => {
       <About />
       <Skills />
       <Works />
+      <Proj />
       <Cirt />
       <Contact />
     </div>

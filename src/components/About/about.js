@@ -16,8 +16,8 @@ const About = () => {
             </p>
             <p>
               I dont really love creating responsive and user-friendly websites
-              but i dont really mind doing it.When I'm not coding you can
-              probably find me doing something strange..
+              but  dont really mind doing it.When I'm not coding you can
+              probably find me doing something dumb..
             </p>
             <p>
               MY hobbies are playing GAMES(INDOOR/OUTDOOR) and obviously trying

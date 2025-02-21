@@ -21,7 +21,7 @@ const Navbar = () => {
           ""
         ) : (
           <Link activeClass="active" to={"/"} className="desktopMenuListItem ">
-            HOME
+            HOME{" "}
           </Link>
         )}
 
@@ -33,9 +33,10 @@ const Navbar = () => {
             to={"/About"}
             className="desktopMenuListItem"
           >
-            ABOUT
+            ABOUT{" "}
           </Link>
         )}
+
         {activeNav === "/Skills" ? (
           ""
         ) : (
@@ -44,8 +45,9 @@ const Navbar = () => {
             to={"/Skills"}
             className="desktopMenuListItem"
           >
-            SKILLS
-          </Link>
+            SKILLS{" "}
+            </Link>
+            
         )}
         {activeNav === "/Education" ? (
           ""
@@ -58,6 +60,19 @@ const Navbar = () => {
             EDUCATION{" "}
           </Link>
         )}
+
+        {activeNav === "/Project" ? (
+          ""
+        ) : (
+          <Link
+            activeClass="active"
+            to={"/Project"}
+            className="desktopMenuListItem"
+          >
+            PROJECTS{" "}
+          </Link>
+        )}
+
         {activeNav === "/Certificate" ? (
           ""
         ) : (
@@ -121,6 +136,14 @@ const Navbar = () => {
           onClick={() => setShowMenu(false)}
         >
           EDUCATION{" "}
+        </Link>
+        <Link
+          activeClass="active"
+          to="/Project"
+          className={`ListItem ${activeNav === "/Project" ? "active" : ""}`}
+          onClick={() => setShowMenu(false)}
+        >
+          PROJECTS{" "}
         </Link>
         <Link
           activeClass="active"

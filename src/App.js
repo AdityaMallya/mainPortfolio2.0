@@ -7,6 +7,7 @@ import Cirt from "./components/Cirtificate/cirt";
 import Home from "./components/Home/home";
 import About from "./components/About/about";
 import Footer from "./components/Footer/footer";
+import Proj from "./components/Proj/proj";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Skills" element={<Skills />} />
           <Route path="/Education" element={<Works />} />
+          <Route path="/Project" element={<Proj />} />
           <Route path="/Certificate" element={<Cirt />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
